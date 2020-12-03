@@ -1,0 +1,22 @@
+{
+    "name": "yuk1/laravel-make-repository",
+    "version": "0.0.1",
+    "description": "A simple package to create a make:repository command for Laravel 5+",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YuK1Game\\LaravelMakeRepository\\RepositoryServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "YuK1\\LaravelMakeRepository\\": "./src"
+        },
+        "classmap": ["src/"]
+    }
+}
